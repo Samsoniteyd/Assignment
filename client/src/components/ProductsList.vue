@@ -6,7 +6,7 @@
             :key="product.id"
             :product="product" />
     </div>
-    <p v-else>You haven't added anything to your cart yet!</p>
+    <p v-else>nothing on your cart yet!</p>
 </template>
 
 <script>

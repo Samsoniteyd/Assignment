@@ -4,7 +4,7 @@
         <h3 class="product-name">{{ product.name }}</h3>
         <p class="product-price">${{ product.price }}</p>
         <router-link v-bind:to="'/products/' + product.id">
-            <button>View Details</button>
+            <button>check Details</button>
         </router-link>
     </div>
 </template>
@@ -20,7 +20,7 @@ export default {
 .product-item {
     align-items: center;
     border-radius: 8px;
-    box-shadow: 0px 2px 5px #888;
+    box-shadow: 0px 2px 5px #895;
     display: flex;
     flex-direction: column;
     margin-bottom: 2%;

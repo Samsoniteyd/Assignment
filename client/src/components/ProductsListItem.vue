@@ -21,7 +21,7 @@ export default {
 <style scoped>
   .product-container {
     align-content: 'center';
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #797979;
     display: flex;
     padding: 16px;
     width: 100%;
