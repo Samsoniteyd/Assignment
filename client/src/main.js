@@ -8,6 +8,7 @@ import App from './App.vue'
 import CartPage from './views/CartPage.vue';
 import ProductDetailPage from './views/ProductDetailPage.vue';
 import ProductsPage from './views/ProductsPage.vue';
+import Login from './views/Login.vue';
 // import NotFoundPage from './views/NotFoundPage.vue'
 
 
@@ -27,6 +28,11 @@ const routes = [
          path:'/Products', 
         component: ProductsPage, 
         name: 'Products'
+    },
+    {
+         path:'/Login', 
+        component: Login, 
+        name: 'Login'
     },
     {
          path:'/',  
